@@ -71,6 +71,7 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'Choose a license that will best suit your project',
+        choises:['MPL 22.0','GNU','Apache','MIT','None of the above'],
         validate: your_licence => {
             if (your_licence) {
                 return true ;
